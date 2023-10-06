@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="chromeTest">
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNGPrograms.CrossBrowserTest2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="firefoxTest">
+	  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestNGPrograms.CrossBrowserTest2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="edgeTest">
+	  <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="TestNGPrograms.CrossBrowserTest2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

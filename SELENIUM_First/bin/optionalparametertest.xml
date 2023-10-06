@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+	  <classes>
+      <class name="TestNGPrograms.OptionalParameterTest"/>
+      </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+	  <parametr name="message" value="Normal parameter selected"/>
+    <classes>
+      <class name="TestNGPrograms.OptionalParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

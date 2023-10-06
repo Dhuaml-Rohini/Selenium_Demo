@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	 <parameter name="val1" value="15"/>
+	  <parameter name="val2" value="13" />
+  <test name="SumTest">
+	 <classes>
+      <class name="TestNGPrograms.AdditionParametersTest"/>
+     </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
